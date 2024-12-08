@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แปลงเลขฐานต่าง ๆ</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>แปลงเลขฐานต่าง ๆ</h1>
+
+        <div class="form-group">
+            <label for="inputValue">กรอกค่าหมายเลข:</label>
+            <input type="text" id="inputValue" placeholder="กรอกเลขที่ต้องการแปลง"></input> 
+        </div>
+        
+        <div class="form-group1">
+            <label for="conversionType">เลือกการแปลง:</label>
+            <select id="conversionType"><!-- conversionType-->
+                <option value="binToDec">ฐานสอง (Binary) → ฐานสิบ (Decimal)</option>
+                <option value="decToOct">ฐานสิบ (Decimal) → ฐานแปด (Octal)</option>
+                <option value="decToHex">ฐานสิบ (Decimal) → ฐานสิบหก (Hexadecimal)</option>
+                <option value="hexToDec">ฐานสิบหก (Hexadecimal) → ฐานสิบ (Decimal)</option>
+            </select>
+        </div>
+
+        <button onclick="convert()">แปลง</button>
+
+        <div class="result" id="result">
+            <!-- ผลลัพธ์จะแสดงที่นี่ -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>

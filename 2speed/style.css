@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://c4.wallpaperflare.com/wallpaper/888/406/394/road-forest-monsoon-wallpaper-preview.jpg') no-repeat center center fixed;
+    background-size: cover; /* ทำให้ภาพพื้นหลังครอบคลุมเต็มหน้าจอ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+        .container {
+            width: 150%;
+            max-width: 450px;
+            background-color: #f8f8f85e;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+        h1 {
+            color: #000000;
+            margin-bottom: 29px;
+            font-size: 32px;
+        }
+        .form-group {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+        .form-group label {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: px;
+            color: #121202;
+            display: block;
+        }
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            font-size: 14px;
+            border: 1px solid #ffffff;
+            border-radius: 8px;
+            box-shadow: inset 0 1px 3px rgba(130, 39, 39, 0.1);
+        }
+
+        .form-group1 {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+        .form-group1 label {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: px;
+            color: #040402;
+            display: block;
+        }
+        .form-group1 input,
+        .form-group1 select {
+            width: 93%;
+            padding: 12px;
+            font-size: 14px;
+            border: 1px solid #cec6c6;
+            border-radius: 8px;
+            box-shadow: inset 0 1px 3px rgba(42, 3, 3, 0.1);
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            background-color: #000000;
+            color: rgb(255, 254, 254);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease-in-out;
+        }
+        button:hover {
+            background-color: rgba(15, 56, 10, 0.845);
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #000000;
+            font-weight: bold;
+        }
+        .result br {
+            margin-bottom: 5px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            button {
+                font-size: 14px;
+            }
+        }

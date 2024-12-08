@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แปลงค่าความเร็วในการเดิน</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>แปลงค่าความเร็วในการเดิน</h1>
+        
+        <div class="form-group1">
+            <label for="speed">กรอกค่าความเร็ว:</label>
+            <input type="number" id="speed" placeholder="กรอกความเร็วในการเดิน (ค่าตัวเลข)" />
+        </div>
+        
+        <div class="form-group">
+            <label for="unit">เลือกหน่วย:</label>
+            <select id="unit">
+                <option value="kmh">กิโลเมตรต่อชั่วโมง (km/h)</option>
+                <option value="ms">เมตรต่อวินาที (m/s)</option>
+                <option value="mph">ไมล์ต่อชั่วโมง (mph)</option>
+            </select>
+        </div>
+        
+        <button onclick="convertSpeed()">แปลง</button>
+
+        <div class="result" id="result">
+            <!-- ผลลัพธ์จะแสดงที่นี่ -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
